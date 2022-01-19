@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.bg {
+    padding: 32px;
+    background-image: linear-gradient(to bottom left, rgba(61, 90, 255, 0.575), rgb(155, 30, 155)) !important;
+}
+
+.jumbotron .flex {
+    padding: 16px 0px;
+}
+
+.card-body {
+    background-color: whitesmoke;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    width: 400px;
+    margin: 16px 16px;
+}
+
+.flex p {
+    margin-top: 32px;
+}
+
+td {
+    padding: 16px;
+    padding-right: 20px;
+}
+
+.gabung1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.gabung {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-flex {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: auto;
+    background-color: skyblue !important;
+    opacity: 90%;
+    margin-right: 24px;
+    border-radius: 20px;
+}
+
+#gambar1 .card-img-top {
+    height: 200px;
+}
+
+#gambar2 .card-img-top {
+    height: 120px;
+}
+
+.product {
+    width: 20%;
+    background-color: darkgray !important;
+    padding: 32px 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+@media only screen and (max-width: 900px) {
+    .flex-flex {
+        width: 350px;
+        flex-direction: column;
+        margin-left: 36px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .product{
+        width: 30%
+    }
+
+    #gambar1 .card-img-top {
+        height: 200px;
+    }
+
+    .gabung {
+        flex-direction: column;
+    }
+
+}
+
+

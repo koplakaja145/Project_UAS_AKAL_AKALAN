@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form class="search-form" id="search-form" method="post" accept-charset="UTF-8" action="/search/user">
+    <select id="selectsearch" class="form-select" name="selectsearch">
+    <option value="people">Search people</option>
+    <option value="node">Search content</option>
+    </select>
+    
+    <label>Enter your keywords: </label>
+     <input type="text" class="form-text" value="" size="40" id="edit-keys" name="keys" maxlength="255" />
+    
+    <input type="submit" class="form-submit" value="Search" id="edit-submit" name="search"/>
+    </form>
+</body>
+</html>

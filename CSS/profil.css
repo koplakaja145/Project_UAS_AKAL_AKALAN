@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    border-bottom: 10px solid cornflowerblue;
+}
+
+.rounded-circle {
+    margin-top: -170px;
+    border: 10px solid cornflowerblue;
+}
+
+.jumbotron {
+    margin-top: -200px;
+    padding-top: 32px;
+}
+
+.gambar {
+    background-image: linear-gradient(to bottom left, rgba(61, 90, 255, 0.575), rgb(155, 30, 155)) ;
+    padding-bottom: 32px;
+}
+
+.profil {
+    background-color: lightsteelblue;
+    border-radius: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 32px;
+}
+
+table {
+    margin-bottom: 32px;
+}
+
+.profil h1 {
+    padding-top: 32px;
+    font-size: 56;
+}
+
+td {
+    padding: 16px 32px;
+    font-size: 32px;
+}
+
+table {
+    margin: 0px 50px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+#mytab1 {
+    margin-left: 300px;
+}
+
+.rounded-circle {
+    width: 300px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 900px) {
+    #mytab1 {
+        margin-left: 250px;
+    }
+
+    td {
+        font-size: 24px
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #mytab1 {
+        margin-left: 0;
+    }
+
+    td {
+        font-size: 8px
+    }
+}
+
+
+
+

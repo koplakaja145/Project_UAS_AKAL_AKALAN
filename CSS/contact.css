@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    height: 0 !important;
+
+}
+
+.row {
+    background-color: thistle;
+    border-radius: 5px;
+    margin: 24px 0px;
+}
+
+.jumbotron {
+    padding-top: 10%;
+}
+
+h1 {
+    padding-bottom: 32px;
+}
+
+.col-md- {
+    margin: 24px 0px;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.kotak {
+    width: 500px;
+    height: 400px;
+    background-color:cornflowerblue;
+    border-radius: 40px;
+    padding: 32px 50px;
+    box-shadow: 10px 10px 10px rgb(40, 13, 65) ;
+}
+
+@media only screen and (max-width: 768px) {
+    .kotak {
+        height: 500px;
+    }
+}
